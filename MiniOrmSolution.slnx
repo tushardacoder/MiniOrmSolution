@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MiniOrm.Migrations/MiniOrm.Migrations.csproj" Id="dd4055bf-a262-4570-bf81-619257761ceb" />
+  <Project Path="Src/MiniOrm/MiniOrm.csproj" Id="943f35a5-8939-4ea5-bb0a-c20395a706e9" />
+</Solution>
