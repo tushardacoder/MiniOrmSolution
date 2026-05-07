@@ -11,16 +11,17 @@ namespace MiniOrm.Models
 
         private readonly string _connectionstring;
 
-        public DbContext(string connection) { 
-        
-              
-        
+        public DbContext(string connection)
+        {
+
+
+
         }
 
 
         public void Dispose()
         {
-         
+
         }
     }
 
@@ -28,7 +29,7 @@ namespace MiniOrm.Models
 
 
 
- 
+
 
 
 

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\MiniOrmSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\attributes\\tableattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\attributes\\tableattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\attributes\\columnattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\attributes\\columnattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\attributes\\primarykeyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\attributes\\tableattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\attributes\\tableattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\appdbconext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\appdbconext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\columnmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\columnmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +31,22 @@
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\dbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\entitymetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\entitymetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\typemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\typemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4055BF-A262-4570-BF81-619257761CEB}|MiniOrm.Migrations\\MiniOrm.Migrations.csproj|e:\\miniormsolution\\miniorm.migrations\\commands\\migrationrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4055BF-A262-4570-BF81-619257761CEB}|MiniOrm.Migrations\\MiniOrm.Migrations.csproj|solutionrelative:miniorm.migrations\\commands\\migrationrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\typemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\typemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\data\\entitymetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\data\\entitymetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD4055BF-A262-4570-BF81-619257761CEB}|MiniOrm.Migrations\\MiniOrm.Migrations.csproj|e:\\miniormsolution\\miniorm.migrations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD4055BF-A262-4570-BF81-619257761CEB}|MiniOrm.Migrations\\MiniOrm.Migrations.csproj|solutionrelative:miniorm.migrations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|e:\\miniormsolution\\src\\miniorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943F35A5-8939-4EA5-BB0A-C20395A706E9}|Src\\MiniOrm\\MiniOrm.csproj|solutionrelative:src\\miniorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,85 +70,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbConext.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\AppDbConext.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\AppDbConext.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\AppDbConext.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Data\\AppDbConext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ColumnMetadata.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\ColumnMetadata.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\ColumnMetadata.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\ColumnMetadata.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Data\\ColumnMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:57:35.769Z",
+              "WhenOpened": "2026-05-07T09:26:27.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DbContext.cs",
               "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\DbContext.cs",
               "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\DbContext.cs",
               "RelativeToolTip": "Src\\MiniOrm\\Data\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T09:13:16.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DbSet.cs",
               "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\DbSet.cs",
               "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\DbSet.cs",
               "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\DbSet.cs",
               "RelativeToolTip": "Src\\MiniOrm\\Data\\DbSet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T09:13:31.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Model\\Product.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Product.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AppDbConext.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\AppDbConext.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\AppDbConext.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\AppDbConext.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Data\\AppDbConext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:12:39.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ColumnAttribute.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:12:00.687Z",
+              "WhenOpened": "2026-05-04T09:57:35.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PrimaryKeyAttribute.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:12:15.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "TableAttribute.cs",
               "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\TableAttribute.cs",
               "RelativeDocumentMoniker": "Src\\MiniOrm\\Attributes\\TableAttribute.cs",
@@ -153,15 +135,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Order.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Order.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Model\\Order.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Order.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Model\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PrimaryKeyAttribute.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Attributes\\PrimaryKeyAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:12:59.43Z",
+              "WhenOpened": "2026-05-04T09:12:15.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColumnAttribute.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Attributes\\ColumnAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:12:00.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntityMetadata.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\EntityMetadata.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\EntityMetadata.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\EntityMetadata.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Data\\EntityMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:14:03.915Z",
               "EditorCaption": ""
             },
             {
@@ -172,7 +180,7 @@
               "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\TypeMapper.cs",
               "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\TypeMapper.cs",
               "RelativeToolTip": "Src\\MiniOrm\\Data\\TypeMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T09:13:48.683Z",
               "EditorCaption": ""
@@ -180,19 +188,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EntityMetadata.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\EntityMetadata.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Data\\EntityMetadata.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Data\\EntityMetadata.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Data\\EntityMetadata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "MigrationRunner.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\MiniOrm.Migrations\\Commands\\MigrationRunner.cs",
+              "RelativeDocumentMoniker": "MiniOrm.Migrations\\Commands\\MigrationRunner.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\MiniOrm.Migrations\\Commands\\MigrationRunner.cs",
+              "RelativeToolTip": "MiniOrm.Migrations\\Commands\\MigrationRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:14:03.915Z",
+              "WhenOpened": "2026-05-07T11:04:14.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Model\\Product.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Product.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:12:39.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Model\\Order.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Model\\Order.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Model\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:12:59.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Program.cs",
+              "RelativeDocumentMoniker": "Src\\MiniOrm\\Program.cs",
+              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Program.cs",
+              "RelativeToolTip": "Src\\MiniOrm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:08:51.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\MiniOrmSolution\\MiniOrm.Migrations\\Program.cs",
               "RelativeDocumentMoniker": "MiniOrm.Migrations\\Program.cs",
@@ -200,21 +247,7 @@
               "RelativeToolTip": "MiniOrm.Migrations\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:09:30.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Program.cs",
-              "RelativeDocumentMoniker": "Src\\MiniOrm\\Program.cs",
-              "ToolTip": "E:\\MiniOrmSolution\\Src\\MiniOrm\\Program.cs",
-              "RelativeToolTip": "Src\\MiniOrm\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:08:51.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T09:09:30.151Z"
             }
           ]
         }

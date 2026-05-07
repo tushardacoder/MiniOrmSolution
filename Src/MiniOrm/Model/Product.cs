@@ -6,5 +6,8 @@ namespace MiniOrm.Data
 {
     public class Product
     {
+    
     }
 }
+
+

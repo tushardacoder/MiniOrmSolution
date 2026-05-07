@@ -8,3 +8,5 @@ namespace MiniOrm.Migrations.Commands
     {
     }
 }
+
+
