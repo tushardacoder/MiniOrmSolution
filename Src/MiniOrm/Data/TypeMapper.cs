@@ -9,7 +9,7 @@ namespace MiniOrm.Models
 {
     public class TypeMapper
     {
-        public static EntityMetadata GetTableName(Type type)
+        public static EntityMetadata MapEntity(Type type)
         {
             var tableAttr = type.GetCustomAttribute<TableAttribute>();
 

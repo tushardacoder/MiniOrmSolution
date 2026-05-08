@@ -13,3 +13,4 @@ namespace MiniOrm.Data
         public bool IsPrimaryKey { get; set; }
     }
 }
+
