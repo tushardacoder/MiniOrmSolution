@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YkYW6QCgzQE=",
+  "dgSpecHash": "Xqwi8RcJynA=",
   "success": true,
   "projectFilePath": "E:\\MiniOrmSolution\\MiniOrm.Migrations\\MiniOrm.Migrations.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ISLAM\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ISLAM\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ISLAM\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

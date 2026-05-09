@@ -11,11 +11,11 @@ namespace MiniOrm.Data
     public class AppDbConext : DbContext
     {
         public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
+      
         public AppDbConext(string connStr) : base(connStr)
         {
 
-
+            Products = new DbSet<Product>(connStr);
 
         }
     }

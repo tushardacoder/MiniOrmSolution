@@ -14,7 +14,7 @@ namespace MiniOrm.Models
         public DbContext(string connection)
         {
 
-
+            _connectionstring = connection;
 
         }
 

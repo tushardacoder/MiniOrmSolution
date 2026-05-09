@@ -4,8 +4,14 @@ using System.Text;
 
 namespace MiniOrm.Migrations.Commands
 {
-    internal class MigrationRunner
+    public class MigrationRunner
     {
+        private readonly string _connectionString;
+
+        public MigrationRunner(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
     }
 }
 
