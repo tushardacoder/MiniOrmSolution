@@ -1,5 +1,6 @@
 ﻿
 
+using Microsoft.Extensions.Configuration;
 using MiniOrm.Data;
 
 
@@ -7,7 +8,8 @@ using MiniOrm.Data;
 
 #region Create Dbcontext
 
-var connStr = "Host=localhost;Port=5432;Database=miniorm;Username=postgres;Password=postgres"; 
+var connStr = "Host=localhost;Port=5432;Username=postgres;Password=softwaredev;Database=Miniorm"; 
+
 
 if (string.IsNullOrWhiteSpace(connStr))
 {
@@ -111,13 +113,13 @@ try
 
     Console.WriteLine("========== DELETE ==========\n");
 
-    db.Products.Delete(id);
+    //db.Products.Delete(id);
 
-    Console.WriteLine($"Deleted Id={id} ✓");
-    var count = db.Products.GetAll().Count();
-    string result = count.ToString();
+    //Console.WriteLine($"Deleted Id={id} ✓");
+    //var count = db.Products.GetAll().Count();
+    //string result = count.ToString();
 
-    Console.WriteLine($"Remaining Products: {result}");
+    //Console.WriteLine($"Remaining Products: {result}");
 
     Console.WriteLine();
 

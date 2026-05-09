@@ -11,4 +11,8 @@
     <PackageReference Include="Npgsql" Version="10.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Src\MiniOrm\MiniOrm.csproj" />
+  </ItemGroup>
+
 </Project>
