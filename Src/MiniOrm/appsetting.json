@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "MINIORM_CONN": "Host=localhost;Port=5432;Database=miniorm;Username=postgres;Password=postgres"
-  }
-}

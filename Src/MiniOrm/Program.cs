@@ -8,7 +8,16 @@ using MiniOrm.Data;
 
 #region Create Dbcontext
 
-var connStr = "Host=localhost;Port=5432;Username=postgres;Password=softwaredev;Database=Miniorm"; 
+
+//var connStr = "Host=localhost;Port=5432;Username=postgres;Password=softwaredev;Database=Miniorm";
+
+
+var config = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("config.json")
+    .Build();
+
+var connStr = config.GetConnectionString("MINIORM_CONN");
 
 
 if (string.IsNullOrWhiteSpace(connStr))
@@ -19,7 +28,7 @@ if (string.IsNullOrWhiteSpace(connStr))
 
 var db = new AppDbConext(connStr);
 
-Console.WriteLine("✓ DbContext created successfully (Npgsql connected)");
+Console.WriteLine("DbContext created successfully (Npgsql connected)");
 Console.WriteLine();
 
 Console.WriteLine("IMPORTANT:");

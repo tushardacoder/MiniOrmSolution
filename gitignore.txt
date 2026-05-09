@@ -4,6 +4,7 @@
 **/*.user
 **/Logs/*
 **/temp
+**/config.json
 
 
 

@@ -27,3 +27,4 @@ E:\MiniOrmSolution\Src\MiniOrm\obj\Debug\net10.0\refint\MiniOrm.dll
 E:\MiniOrmSolution\Src\MiniOrm\obj\Debug\net10.0\MiniOrm.pdb
 E:\MiniOrmSolution\Src\MiniOrm\obj\Debug\net10.0\MiniOrm.genruntimeconfig.cache
 E:\MiniOrmSolution\Src\MiniOrm\obj\Debug\net10.0\ref\MiniOrm.dll
+E:\MiniOrmSolution\Src\MiniOrm\bin\Debug\net10.0\config.json
