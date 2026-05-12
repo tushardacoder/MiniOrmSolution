@@ -4,7 +4,10 @@
 **/*.user
 **/Logs/*
 **/temp
-**/config.json
+
+# Sensitive config
+appsettings.Development.json
+config.json
 
 
 

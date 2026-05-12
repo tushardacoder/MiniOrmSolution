@@ -32,3 +32,4 @@ E:\MiniOrmSolution\MiniOrm.Migrations\obj\Debug\net10.0\refint\MiniOrm.Migration
 E:\MiniOrmSolution\MiniOrm.Migrations\obj\Debug\net10.0\MiniOrm.Migrations.pdb
 E:\MiniOrmSolution\MiniOrm.Migrations\obj\Debug\net10.0\MiniOrm.Migrations.genruntimeconfig.cache
 E:\MiniOrmSolution\MiniOrm.Migrations\obj\Debug\net10.0\ref\MiniOrm.Migrations.dll
+E:\MiniOrmSolution\MiniOrm.Migrations\bin\Debug\net10.0\config.json

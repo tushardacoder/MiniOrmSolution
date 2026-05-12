@@ -122,13 +122,13 @@ try
 
     Console.WriteLine("========== DELETE ==========\n");
 
-    //db.Products.Delete(id);
+    db.Products.Delete(id);
 
-    //Console.WriteLine($"Deleted Id={id} ✓");
-    //var count = db.Products.GetAll().Count();
-    //string result = count.ToString();
+    Console.WriteLine($"Deleted Id={id} ✓");
+    var count = db.Products.GetAll().Count();
+    string result = count.ToString();
 
-    //Console.WriteLine($"Remaining Products: {result}");
+    Console.WriteLine($"Remaining Products: {result}");
 
     Console.WriteLine();
 

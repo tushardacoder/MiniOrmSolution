@@ -1,8 +1,15 @@
 ﻿
 
+using Microsoft.Extensions.Configuration;
 using MiniOrm.Migrations.Commands;
 
-string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=softwaredev;Database=Miniorm";
+//string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=softwaredev;Database=Miniorm";
+var config = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("config.json")
+    .Build();
+
+var connectionString = config.GetConnectionString("MINIORM_CONN");
 
 var schemereader = new SchemaReader(connectionString);
 
