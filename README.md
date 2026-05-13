@@ -364,17 +364,24 @@ CREATE TABLE products (
 ```csharp
 var product = new Product
 {
-    Name = "Laptop",
-    Price = 1200
+     Name = "Keyboard",
+     Price = 89.99m,
+     Discount = 10,
+     InStock = true
 };
 
-context.Products.Add(product);
-
-var allProducts = context.Products.GetAll();
-
-context.Products.Update(product);
-
-context.Products.Delete(product.Id);
+#insert
+db.Products.Insert(product);
+#get by Id
+db.Products.FindById(id);
+#get all products
+var allProducts = db.Products.GetAll();
+#update product
+product.Price = 79.99m;
+product.Discount = 5;
+db.Products.Update(product);
+#delete product
+db.Products.Delete(product.Id);
 ```
 
 
