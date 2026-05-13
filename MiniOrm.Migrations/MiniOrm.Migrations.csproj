@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Src\MiniOrm\MiniOrm.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

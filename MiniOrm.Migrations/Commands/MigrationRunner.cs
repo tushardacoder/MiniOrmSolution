@@ -24,7 +24,7 @@ namespace MiniOrm.Migrations.Commands
             string sql = @"
                 CREATE TABLE IF NOT EXISTS __migrations (
                     id SERIAL PRIMARY KEY,
-                    name TEXT NOT NULL,
+                    name TEXT NOT NULL UNIQUE,
                     applied_at TIMESTAMP NOT NULL
                 );
             ";
@@ -68,9 +68,7 @@ namespace MiniOrm.Migrations.Commands
             var files = Directory.GetFiles("Migrations", "*.sql")
                 .OrderBy(x => x);
 
-            using var connection =
-                new NpgsqlConnection(_connectionString);
-
+            using var connection = new NpgsqlConnection(_connectionString);
             connection.Open();
 
             foreach (var file in files)
@@ -78,37 +76,40 @@ namespace MiniOrm.Migrations.Commands
                 var name = Path.GetFileName(file);
 
                 if (applied.Contains(name))
-                {
                     continue;
-                }
 
                 var text = File.ReadAllText(file);
 
-                int downIndex = text.IndexOf("-- down");
+                var upIndex = text.IndexOf("-- up");
+                var downIndex = text.IndexOf("-- down");
+
+                if (upIndex == -1 || downIndex == -1)
+                {
+                    throw new Exception($"Invalid migration format in {name}");
+                }
+
+                var upStart = upIndex + "-- up".Length;
 
                 string upSql = text.Substring(
-                    text.IndexOf("-- up") + 5,
-                    downIndex - (text.IndexOf("-- up") + 5));
+                    upStart,
+                    downIndex - upStart
+                ).Trim();
 
-                using var cmd =
-                    new NpgsqlCommand(upSql, connection);
-
+                using var cmd = new NpgsqlCommand(upSql, connection);
                 cmd.ExecuteNonQuery();
 
-                string insert = @"
-                    INSERT INTO __migrations(name, applied_at)
-                    VALUES(@name, NOW());
-                ";
+                const string insert = @"
+        INSERT INTO __migrations(name, applied_at)
+        VALUES(@name, NOW());
+    ";
 
-                using var insertCmd =
-                    new NpgsqlCommand(insert, connection);
-
+                using var insertCmd = new NpgsqlCommand(insert, connection);
                 insertCmd.Parameters.AddWithValue("name", name);
-
                 insertCmd.ExecuteNonQuery();
 
                 Console.WriteLine($"Applied: {name}");
             }
+
         }
 
         public void ListMigrations()

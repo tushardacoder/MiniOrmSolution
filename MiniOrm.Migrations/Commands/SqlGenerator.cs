@@ -48,18 +48,18 @@ namespace MiniOrm.Migrations.Commands
         public string GenerateAddColumn(string tableName, ColumnMetadata col)
         {
             return $@"
-ALTER TABLE {tableName}
-ADD COLUMN {col.ColumnName} {col.PostgreSqlType}
-{(col.IsNullable ? "NULL" : "NOT NULL")};
-";
+              ALTER TABLE {tableName}
+             ADD COLUMN {col.ColumnName} {col.PostgreSqlType}
+             {(col.IsNullable ? "NULL" : "NOT NULL")};
+              ";
         }
 
         public string GenerateDropColumn(string tableName, string columnName)
         {
             return $@"
-ALTER TABLE {tableName}
-DROP COLUMN IF EXISTS {columnName};
-";
+           ALTER TABLE {tableName}
+           DROP COLUMN IF EXISTS {columnName};
+            ";
         }
     }
 }

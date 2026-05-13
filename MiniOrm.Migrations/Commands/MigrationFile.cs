@@ -6,9 +6,9 @@ namespace MiniOrm.Migrations.Commands
 {
     public class MigrationFile
     {
-        public string Name { get; set; }
-        public string FilePath { get; set; }
-        public string UpSql { get; set; }
-        public string DownSql { get; set; }
+        public required string Name { get; set; }
+        public required string FilePath { get; set; }
+        public required string UpSql { get; set; }
+        public required string DownSql { get; set; }
     }
 }

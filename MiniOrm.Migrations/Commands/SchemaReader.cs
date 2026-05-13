@@ -22,7 +22,7 @@ namespace MiniOrm.Migrations.Commands
 
             using var connection = new NpgsqlConnection(_connectionString);
 
-            connection.Open();
+
 
             string sql = @"
                 SELECT table_name, column_name
